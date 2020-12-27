@@ -145,6 +145,16 @@ select {
   }
 }
 
+@media (max-width: 700px) {
+  .pagination li {
+    font-size: 0.8em;
+  }
+
+  .pagination > li > a {
+    padding: 6px 12px;
+  }
+}
+
 @media (max-width: 500px) {
   #table-area thead {
     display: none;
@@ -184,6 +194,14 @@ select {
     font-weight: bold;
     text-align: center;
     content: attr(data-th);
+  }
+
+  .pagination li {
+    font-size: 0.6em;
+  }
+
+  .pagination > li > a {
+    padding: 4px 8px;
   }
 
   .hero h1 {
